@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Pinto - Desarrollador Frontend</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/mini_proyecto_dia_01/_CSS/styles.css">
+    <meta name="description" content="Portafolio de Kevin Pinto - Desarrollador Frontend especializado en diseño responsive y CSS moderno.">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <!-- Header con navegación responsive -->
@@ -15,7 +17,7 @@
                     <h1 class="logo__text">Kevin Pinto</h1>
                 </div>
 
-                <nav class="nav" role="navigation" aria-label="Navegaciion pricipal">
+                <nav class="nav" role="navigation" aria-label="Navegación pricipal">
                     <ul class="nav__list">
                         <li class="nav__item">
                             <a href="#home" class="nav__link">Inicio</a>
@@ -39,13 +41,13 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero__content">
-                <h2 class="hero__tittle">
+                <h2 class="hero__title">
                     Desarrollador Frontend <br>
                     <span class="hero__highlight">Especializado en CSS Responsive</span>
                 </h2>
 
                 <p class="hero__description">
-                    Creo experencias web que funcionan perfectamente en todos los dispositivos,
+                    Creo experiencias web que funcionan perfectamente en todos los dispositivos,
                     desde moviles hasta pantallas 4K.
                 </p>
 
@@ -57,6 +59,82 @@
         </div>
     </section>
 
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección sobre mi-->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section__tittle">Sobre mi</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>
+                            Soy un desarrollador frontend apasionado por crear interfaces de usuario 
+                            que no solo se ven atractivas, sino que funcionan perfectamente en 
+                            cualquier dispositivo.
+                        </p>
+                        <p>
+                            Especializado en CSS moderno, responsive design y frameworks como Bootstrap y TailwindCSS.
+                            Siempre en búsqueda de las mejores prácticas y las tecnologías más
+                            actuales.  
+                        </p>
+                    </div>
+                    <div class="about__image">
+                        <div class="placeholder-image">
+                            <img src="/mini_proyecto_dia_01/_IMG/image_01.jpg" alt="Foto de Kevin Pinto" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion habilidades -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section__tittle">Habilidades</h2>
+                <div class="skills__grid">
+                    <div class="skill-card">
+                        <h3 class="skill-card__title">HTML5 Semántico</h3>
+                        <p class="skill-card__description">
+                            Estructura web accesible y optimizada para SEO.
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <h3 class="skill-card__title">CSS3 Avanzado</h3>
+                        <p class="skill-card__description">
+                            Grid, FLexbox, Animaciones y variables CSS.
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <h3 class="skill-card__title">Responsive Design</h3>
+                        <p class="skill-card__description">
+                            Mobile-first, Media Queries y Container Queries.
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <h3 class="skill-card__title">Performance Web</h3>
+                        <p class="skill-card__description">
+                            Optimización de carga y experiencia de usuario.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>  
     
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <h2 class="footer__tittle">¿Trabajamos Juntos?</h2>
+                <p class="footer__description">
+                    Estoy disponible para proyectos freelance y oportunidades de colaboración.
+                </p>
+                <div class="footer__contact">
+                    <a href="https://github.com/Bykevin10" class="contact-link">Github</a>
+                    <a href="https://linkedin.com/in/kevin-pinto-189690227/" class="contact-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
